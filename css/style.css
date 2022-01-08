@@ -282,7 +282,7 @@
     
     .button-icon {
         transition: fill var(--transition-duration) var(--transition-timing-function);
-        margin: 0 9px;
+        margin: 5px 5px;
     }
     
     .form-text {
@@ -403,6 +403,7 @@
         border: 2px solid var(--secondary-text-color);
         margin-right: 8px;
         margin-bottom: 4px;
+        cursor: pointer;
     }
     
     .checkbox-link {
@@ -772,8 +773,6 @@
     }
     
     .footer-form {
-        width: 570px;
-        height: 86px;
         display: flex;
         align-items: flex-end;
     }
@@ -781,7 +780,7 @@
     .footer-email-container {
         display: flex;
         flex-direction: column;
-        margin-left: 93px;
+        margin-left: 109px;
     }
     
     .footer-input {
